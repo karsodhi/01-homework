@@ -32,12 +32,12 @@ body {
     font-size: 20px;
 }
 
-/* deleted div and consolodated list-style-type to the list */
+/* deleted div and consolodated list-style-type */
 
 .header ul li {
     display: inline-block;
     margin-left: 25px;
-    list-style-type: none;
+    
 }
 
 a {
@@ -86,7 +86,7 @@ p {
     text-align: center;
 }
 
-/* deleted benenfit brand and benefit cost and consolodated them with benefit lead */
+/* deleted benefit brand and benefit cost and consolodated them with benefit lead */
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
