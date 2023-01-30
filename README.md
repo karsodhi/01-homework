@@ -3,10 +3,12 @@ This is the first HW challenge that was presented to us.  I refactored the HTML 
 
 
 
-
 # Mentions
 I worked with a tutor for this assignment through the tutoring session for help and guidance.
 
+# Links
+https://github.com/karsodhi/01-homework
 
+https://karsodhi.github.io/01-homework/
 
 

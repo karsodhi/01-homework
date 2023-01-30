@@ -23,6 +23,7 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
+
 /* changed div to nav */
 .header nav {
     padding-top: 15px;
@@ -32,12 +33,11 @@ body {
     font-size: 20px;
 }
 
-/* deleted div and consolodated list-style-type */
-
+/* deleted div and consolodated list-style-type none */
 .header ul li {
     display: inline-block;
     margin-left: 25px;
-    
+    list-style-type: none;
 }
 
 a {
@@ -73,7 +73,7 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-/* add text align center  */
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -83,10 +83,9 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-    text-align: center;
 }
 
-/* deleted benefit brand and benefit cost and consolodated them with benefit lead */
+/* combined classes in this section */
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
@@ -102,7 +101,6 @@ p {
     text-align: center;
 }
 
-
 /* combined classes in this section */
 .benefit-lead img,
 .benefit-brand img,
@@ -114,7 +112,7 @@ p {
 
 /* combined classes in this section */
 .search-engine-optimization,
-.search-engine-management,
+.online-reputation-management,
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -124,13 +122,13 @@ p {
     color: #ffffff;
 }
 
+
 /* combined classes in this section */
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img{
     max-height: 200px;
 }
-
 
 /* combined classes in this section */
 .search-engine-optimization h2,
@@ -139,7 +137,6 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
 
 .footer {
     padding: 30px;
